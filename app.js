@@ -11,5 +11,8 @@ app.set("view engine", "hbs");
 app.get("/", (req, res)=>{
     res.render("index");
 });
+app.get("/story", (req, res)=>{
+    res.render("story");
+});
 
 app.listen(PORT, ()=> console.log(`Listening on Port ${PORT}`));
