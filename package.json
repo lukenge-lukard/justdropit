@@ -4,7 +4,8 @@
   "description": "This repository houses the source code for justdrop website",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node app",
+    "dev": "nodemon app"
   },
   "repository": {
     "type": "git",
@@ -16,5 +17,12 @@
   "bugs": {
     "url": "https://github.com/lukenge-lukard/justdropit/issues"
   },
-  "homepage": "https://github.com/lukenge-lukard/justdropit#readme"
+  "homepage": "https://github.com/lukenge-lukard/justdropit#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "hbs": "^4.1.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
 }
