@@ -17,5 +17,11 @@ app.get("/story", (req, res)=>{
 app.get("/lovestory", (req, res)=>{
     res.render("lovestory");
 });
+app.get("/angry", (req, res)=>{
+    res.render("angry");
+});
+app.get("/fear", (req, res)=>{
+    res.render("fear");
+});
 
 app.listen(PORT, ()=> console.log(`Listening on Port ${PORT}`));
