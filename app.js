@@ -23,5 +23,26 @@ app.get("/angry", (req, res)=>{
 app.get("/fear", (req, res)=>{
     res.render("fear");
 });
+app.get("/believe", (req, res)=>{
+    res.render("believe");
+});
+app.get("/fine", (req, res)=>{
+    res.render("fine");
+});
+app.get("/powerless", (req, res)=>{
+    res.render("powerless");
+});
+app.get("/handle", (req, res)=>{
+    res.render("handle");
+});
+app.get("/fuck", (req, res)=>{
+    res.render("fuck");
+});
+app.get("/lady", (req, res)=>{
+    res.render("lady");
+});
+app.get("/sorry", (req, res)=>{
+    res.render("sorry");
+});
 
 app.listen(PORT, ()=> console.log(`Listening on Port ${PORT}`));
