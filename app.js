@@ -44,5 +44,8 @@ app.get("/lady", (req, res)=>{
 app.get("/sorry", (req, res)=>{
     res.render("sorry");
 });
+app.get("/what-do-you-say", (req, res)=>{
+    res.render("what-do-you-say");
+});
 
 app.listen(PORT, ()=> console.log(`Listening on Port ${PORT}`));
