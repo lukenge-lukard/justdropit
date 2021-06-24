@@ -2,6 +2,17 @@ const express = require("express");
 
 const router = express.Router();
 
+// admin routes
+router.get("/admin", (req, res)=>{
+    res.render("admin/index");
+});
+router.get("/admin/login", (req, res)=>{
+    res.render("admin/login");
+});
+router.get("/admin/register", (req, res)=>{
+    res.render("admin/register");
+});
+
 router.get("/", (req, res)=>{
     res.render("index");
 });
